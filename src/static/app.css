@@ -1,0 +1,46 @@
+.card {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.home h1 {
+    text-align: center
+}
+
+.nav-brand {
+    font-size: 35px;
+    text-align: ce;
+}
+
+@media (max-width: 639px) {
+    .nav-brand {
+        text-align: center;
+    }
+    nav .collapsible button {
+        display: block;
+        position: initial;
+        margin: 30px 0px;
+    }
+}
+
+@media (max-width: 1047px) {}
+
+@media (min-width: 1048px) {}
+
+header {}
+
+footer {
+    min-height: 200px;
+    background: #3a0c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a,
+footer a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    background: none;
+}

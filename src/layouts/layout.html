@@ -1,0 +1,39 @@
+<!-- USE_HANDLEBARS -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{i18n.TEST}} {{title}} - Javier Leandro Arancibia</title>
+    <link href='//fonts.googleapis.com/css?family=Dosis:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
+    <link rel="stylesheet" href="/app.css">
+
+    <meta name="description" content='{{i18n.HEAD_DESCRIPTION}}'>
+    <meta itemprop="name" content="{{i18n.HEAD_TITLE}}">
+    <meta itemprop="description" content='{{i18n.HEAD_DESCRIPTION}}'>
+    <meta itemprop="image" content="{{i18n.HEAD_SHARE_IMAGE}}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="{{i18n.TWITTER_USERNAME}}" />
+    <meta name="twitter:title" content="{{i18n.HEAD_TITLE}}">
+    <meta name="twitter:description" content="{{i18n.HEAD_TITLE}}">
+    <meta name="twitter:creator" content="@netlify" />
+    <meta name="twitter:image" content="{{i18n.HEAD_SHARE_IMAGE}}" />
+    <meta property="og:title" content="{{i18n.HEAD_TITLE}}">
+    <meta property="og:description" content='{{i18n.HEAD_DESCRIPTION}}'>
+    <meta name="og:image" content="{{i18n.HEAD_SHARE_IMAGE}}" />
+    <meta name="og:image:secure_url" content="{{i18n.HEAD_SHARE_IMAGE}}" />
+    <meta property="og:site_name" content="{{i18n.HEAD_TITLE}}" />
+
+</head>
+
+<body>
+    %_header% %page_content%
+    <footer>
+        <a href="https://www.linkedin.com/in/arancibiajav/" target="_blank">Javier Leandro Arancibia</a>
+    </footer>
+</body>
+
+</html>
